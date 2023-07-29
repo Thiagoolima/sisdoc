@@ -4,7 +4,8 @@
   "description": "Area reservada ao projeto backend",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
   },
   "author": "",
   "license": "ISC",
