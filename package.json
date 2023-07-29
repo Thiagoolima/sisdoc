@@ -1,8 +1,0 @@
-{
-  "name": "back",
-  "version": "1.0.0",
-  "description": "Area reservada ao projeto backend",
-  "scripts": {
-    "start": "cd back && npm install --loglevel=verbose && node index.js"
-  }
-}
