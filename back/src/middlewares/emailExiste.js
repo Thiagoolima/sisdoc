@@ -28,6 +28,4 @@ const emailExiste = (vlrEsperado) => async (req, res, next) => {
   }
 };
 
-module.exports = {
-  emailExiste,
-};
+module.exports = emailExiste;

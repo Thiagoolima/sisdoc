@@ -6,7 +6,7 @@ const {
   schemaCadastroUsuario,
   schemaLogin,
 } = require("../middlewares/schemas/schemaJoi");
-const { emailExiste } = require("../middlewares/EmailExiste");
+const emailExiste = require("../middlewares/EmailExiste");
 const novoUsuario = require("../controllers/usuario/novoUsuario");
 const validarBody = require("../middlewares/validarBody");
 const cpfExiste = require("../middlewares/cpfExiste");
